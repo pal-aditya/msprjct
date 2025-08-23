@@ -1,4 +1,5 @@
-module github.com/GoogleCloudPlatform/microservices-demo/src/frontend
+#module github.com/GoogleCloudPlatform/microservices-demo/src/frontend
+module github.com/pal-aditya/msprjct/src/frontend
 
 go 1.23.0
 

@@ -32,9 +32,9 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	pb "github.com/GoogleCloudPlatform/microservices-demo/src/frontend/genproto"
-	"github.com/GoogleCloudPlatform/microservices-demo/src/frontend/money"
-	"github.com/GoogleCloudPlatform/microservices-demo/src/frontend/validator"
+	pb "github.com/pal-aditya/msprjct/src/frontend/genproto"
+	"github.com/pal-aditya/msprjct/src/frontend/money"
+	"github.com/pal-aditya/msprjct/src/frontend/validator"
 )
 
 type platformDetails struct {
