@@ -1,0 +1,2 @@
+secrets/secretsemail.yml
+configmap/emailsmtp.yaml

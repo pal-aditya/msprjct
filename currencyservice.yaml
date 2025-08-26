@@ -29,7 +29,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: aditya090/projectk8s:mscurrencysvc
+        image: aditya090/projectk8s:mscurrencysvc-v1
         ports:
         - name: grpc
           containerPort: 7000

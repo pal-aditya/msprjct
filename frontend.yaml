@@ -30,25 +30,25 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: aditya090/projectk8s:msfrontend
+          image: aditya090/projectk8s:msfrontendsvc-v1
           ports:
           - containerPort: 8080
-          readinessProbe:
-            initialDelaySeconds: 10
-            httpGet:
-              path: "/_healthz"
-              port: 8080
-              httpHeaders:
-              - name: "Cookie"
-                value: "shop_session-id=x-readiness-probe"
-          livenessProbe:
-            initialDelaySeconds: 10
-            httpGet:
-              path: "/_healthz"
-              port: 8080
-              httpHeaders:
-              - name: "Cookie"
-                value: "shop_session-id=x-liveness-probe"
+#          readinessProbe:
+#            initialDelaySeconds: 10
+#            httpGet:
+#              path: "/_healthz"
+#              port: 8080
+#              httpHeaders:
+#              - name: "Cookie"
+#                value: "shop_session-id=x-readiness-probe"
+#          livenessProbe:
+#            initialDelaySeconds: 10
+#            httpGet:
+#              path: "/_healthz"
+#              port: 8080
+#              httpHeaders:
+#              - name: "Cookie"
+#                value: "shop_session-id=x-liveness-probe"
           env:
           - name: PORT
             value: "8080"
