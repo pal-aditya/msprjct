@@ -136,22 +136,6 @@ kubectl delete -f .
 
 ---
 
-## Contributing
-
-Contributions are welcome! Consider:
-
-- Adding service health checks or probes
-- Introducing Helm charts for deployment
-- Creating CI/CD workflows (e.g., GitHub Actions)
-- Providing architecture diagrams or documentation enhancements
-- Expanding real-time integrations like the **Email service**
-
----
-
-## License
-
-This project currently has **no license specified**. If you’d like to open it under an open-source license, consider adding one (e.g., MIT, Apache 2.0). 
-
 ---
 
 **Enjoy exploring the microservices setup!**  
